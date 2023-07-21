@@ -1,0 +1,121 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-family: Papyrus;
+}
+
+#info {
+    font-size: 155%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: darkblue;
+    font-family: Papyrus;
+}
+
+p {
+    color: black;
+    font-family: Copperplate;
+    font-size: 20px;
+}
+
+.favs {
+    color: black;
+    font-family: Copperplate;
+    font-size: 20px;
+}
+
+::selection {
+    background-color: #2a9d8f;
+    color: #ffb703
+}
+
+p::first-letter,
+li::first-letter {
+    font-size: 30px;
+}
+
+li::after {
+    font-size: 30px;
+}
+
+b {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.no::first-letter {
+    font-size: 20px;
+    font-family: Copperplate;
+}
+
+.no {
+    font-size: 20px;
+    font-family: Copperplate;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nbalink {
+    color: #e63946;
+}
+
+.tableofcont {
+    width: 450px;
+    border-radius: 30px;
+    border-color: darkgreen;
+    border-style: solid;
+    background-color: #fcbf49;
+    padding-left: 50px;
+}
+
+.colordiffer {
+    color: hotpink;
+}
+
+.class1 {
+    font-family: Copperplate;
+    font-size: 20px;
+}
+
+.ps {
+    font-family: Copperplate;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+hr {
+    margin-top: 2px;
+    justify-content: start;
+    width: 40%;
+    margin-bottom: 2px;
+    size: 1.5;
+    color: black;
+}
+
+.p {
+    color: black;
+    font-family: Copperplate;
+    font-size: 25px;
+}
